@@ -1,0 +1,38 @@
+
+header {
+    height: 50px;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    background: #29bde0;
+    top: 0;
+    z-index: 2;
+}
+header p {
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    height: 0;
+    font-size: 21px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+}
+header img {
+    width: 20px;
+    cursor: pointer;
+    /*height: 20px;*/
+}
+.back {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.close {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+

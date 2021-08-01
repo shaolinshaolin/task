@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-size: 0.16rem;
+    background-color: #29bde0;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+html {
+    font-size: 625%;
+}
+
+.main {
+    overflow: hidden;
+    margin-top: .5rem;
+    padding: 0 .5rem;
+}
+.main .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin: .5rem 0;
+    border: 0.05rem solid #fff;
+    background-color: #ffedc5;
+}
+.main .container .player-num {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .4rem;
+    width: .4rem;
+    border: .03rem solid #ffedc5;
+    border-radius: 50%;
+    font-size: 0.2rem;
+    font-weight: 500;
+    color: #f56b81;
+    background-color: #fff;
+}
+.main .container .identity-king {
+     width: 100%;
+    max-width: 1.7rem;
+}
+.main .container .identity-player {
+    display: none;
+    width: 100%;
+    max-width: 1.2rem;
+}
+.main .container .identity-text {
+    font-size: 0.2rem;
+    color: #29bde0;
+}
+.main .pass {
+    display: block;
+    width: 100%;
+    line-height: .5rem;
+    margin: .2rem 0;
+    border: none;
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #fbb435;
+    cursor: pointer;
+}
